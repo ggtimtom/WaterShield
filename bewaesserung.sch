@@ -1,0 +1,725 @@
+EESchema Schematic File Version 4
+LIBS:bewaesserung-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Gerold:IRLML0100 Q1
+U 1 1 5EA4E679
+P 2600 2800
+F 0 "Q1" H 2950 2850 50  0000 L CNN
+F 1 "IRLML0100" H 2804 2755 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2800 2725 50  0001 L CIN
+F 3 "/home/guenter/Dokumente/Kicad/datasheet/irlml0100pbf.pdf" H 2600 2800 50  0001 L CNN
+	1    2600 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5EA56A8E
+P 2200 2800
+F 0 "R1" V 1993 2800 50  0000 C CNN
+F 1 "33" V 2084 2800 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 2130 2800 50  0001 C CNN
+F 3 "~" H 2200 2800 50  0001 C CNN
+	1    2200 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5EA57BF2
+P 2700 3100
+F 0 "#PWR0101" H 2700 2850 50  0001 C CNN
+F 1 "GND" H 2705 2927 50  0000 C CNN
+F 2 "" H 2700 3100 50  0001 C CNN
+F 3 "" H 2700 3100 50  0001 C CNN
+	1    2700 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Gerold:PE014005 K1
+U 1 1 5EA587EC
+P 2900 2150
+F 0 "K1" H 3450 2200 50  0000 L CNN
+F 1 "PE014005" H 3330 2105 50  0000 L CNN
+F 2 "Gerold:PE014005" H 4450 2100 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=RT1_bistable&DocType=DS&DocLang=English" H 2900 2150 50  0001 C CNN
+	1    2900 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 5EA59DFD
+P 2700 1700
+F 0 "#PWR0102" H 2700 1550 50  0001 C CNN
+F 1 "+5V" H 2715 1873 50  0000 C CNN
+F 2 "" H 2700 1700 50  0001 C CNN
+F 3 "" H 2700 1700 50  0001 C CNN
+	1    2700 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 1700 2700 1750
+Wire Wire Line
+	2700 2450 2700 2550
+Wire Wire Line
+	2700 3000 2700 3100
+Wire Wire Line
+	2400 2800 2350 2800
+$Comp
+L Gerold:IRLML0100 Q2
+U 1 1 5EA6511C
+P 3600 3850
+F 0 "Q2" H 3950 3900 50  0000 L CNN
+F 1 "IRLML0100" H 3804 3805 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3800 3775 50  0001 L CIN
+F 3 "/home/guenter/Dokumente/Kicad/datasheet/irlml0100pbf.pdf" H 3600 3850 50  0001 L CNN
+	1    3600 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5EA65122
+P 3200 3850
+F 0 "R2" V 2993 3850 50  0000 C CNN
+F 1 "33" V 3084 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3130 3850 50  0001 C CNN
+F 3 "~" H 3200 3850 50  0001 C CNN
+	1    3200 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5EA65128
+P 3700 4150
+F 0 "#PWR0103" H 3700 3900 50  0001 C CNN
+F 1 "GND" H 3705 3977 50  0000 C CNN
+F 2 "" H 3700 4150 50  0001 C CNN
+F 3 "" H 3700 4150 50  0001 C CNN
+	1    3700 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Gerold:PE014005 K2
+U 1 1 5EA6512E
+P 3900 3200
+F 0 "K2" H 4450 3250 50  0000 L CNN
+F 1 "PE014005" H 4330 3155 50  0000 L CNN
+F 2 "Gerold:PE014005" H 5450 3150 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=RT1_bistable&DocType=DS&DocLang=English" H 3900 3200 50  0001 C CNN
+	1    3900 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0104
+U 1 1 5EA65134
+P 3700 2750
+F 0 "#PWR0104" H 3700 2600 50  0001 C CNN
+F 1 "+5V" H 3715 2923 50  0000 C CNN
+F 2 "" H 3700 2750 50  0001 C CNN
+F 3 "" H 3700 2750 50  0001 C CNN
+	1    3700 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2750 3700 2800
+Wire Wire Line
+	3700 3500 3700 3600
+Wire Wire Line
+	3700 4050 3700 4150
+Wire Wire Line
+	3400 3850 3350 3850
+$Comp
+L Gerold:IRLML0100 Q3
+U 1 1 5EA687F0
+P 4600 5000
+F 0 "Q3" H 4950 5050 50  0000 L CNN
+F 1 "IRLML0100" H 4804 4955 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4800 4925 50  0001 L CIN
+F 3 "/home/guenter/Dokumente/Kicad/datasheet/irlml0100pbf.pdf" H 4600 5000 50  0001 L CNN
+	1    4600 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5EA687F6
+P 4200 5000
+F 0 "R3" V 3993 5000 50  0000 C CNN
+F 1 "33" V 4084 5000 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4130 5000 50  0001 C CNN
+F 3 "~" H 4200 5000 50  0001 C CNN
+	1    4200 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0106
+U 1 1 5EA68808
+P 4700 3900
+F 0 "#PWR0106" H 4700 3750 50  0001 C CNN
+F 1 "+5V" H 4715 4073 50  0000 C CNN
+F 2 "" H 4700 3900 50  0001 C CNN
+F 3 "" H 4700 3900 50  0001 C CNN
+	1    4700 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 3900 4700 4000
+Wire Wire Line
+	4700 4650 4700 4750
+Wire Wire Line
+	4400 5000 4350 5000
+$Comp
+L Gerold:VC10_1_24 T1
+U 1 1 5EA6A3FF
+P 9350 3000
+F 0 "T1" H 9350 3381 50  0000 C CNN
+F 1 "VC10_1_24" H 9350 3290 50  0000 C CNN
+F 2 "Gerold:VC10_1_24" H 9350 3000 50  0001 C CNN
+F 3 "/home/guenter/Dokumente/Kicad/datasheet/BLOCK___VC_10-1-24.pdf" H 9350 3000 50  0001 C CNN
+	1    9350 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Gerold:IRLML0100 Q4
+U 1 1 5EA850FF
+P 7250 4350
+F 0 "Q4" H 7600 4400 50  0000 L CNN
+F 1 "IRLML0100" H 7454 4305 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7450 4275 50  0001 L CIN
+F 3 "/home/guenter/Dokumente/Kicad/datasheet/irlml0100pbf.pdf" H 7250 4350 50  0001 L CNN
+	1    7250 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5EA85105
+P 6850 4350
+F 0 "R4" V 6643 4350 50  0000 C CNN
+F 1 "33" V 6734 4350 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 6780 4350 50  0001 C CNN
+F 3 "~" H 6850 4350 50  0001 C CNN
+	1    6850 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5EA8510B
+P 7350 4650
+F 0 "#PWR0107" H 7350 4400 50  0001 C CNN
+F 1 "GND" H 7355 4477 50  0000 C CNN
+F 2 "" H 7350 4650 50  0001 C CNN
+F 3 "" H 7350 4650 50  0001 C CNN
+	1    7350 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0108
+U 1 1 5EA85117
+P 7350 3250
+F 0 "#PWR0108" H 7350 3100 50  0001 C CNN
+F 1 "+5V" H 7365 3423 50  0000 C CNN
+F 2 "" H 7350 3250 50  0001 C CNN
+F 3 "" H 7350 3250 50  0001 C CNN
+	1    7350 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 3250 7350 3300
+Wire Wire Line
+	7350 4000 7350 4050
+Wire Wire Line
+	7350 4550 7350 4650
+Wire Wire Line
+	7050 4350 7000 4350
+Wire Wire Line
+	8600 2400 8600 2300
+Wire Wire Line
+	8700 2300 8700 2400
+Wire Wire Line
+	8400 2300 8400 2400
+Wire Wire Line
+	7750 4000 8150 4000
+Wire Wire Line
+	8150 4000 8150 3200
+$Comp
+L power:GND #PWR0110
+U 1 1 5EA9B511
+P 9850 2850
+F 0 "#PWR0110" H 9850 2600 50  0001 C CNN
+F 1 "GND" H 9950 2900 50  0000 C CNN
+F 2 "" H 9850 2850 50  0001 C CNN
+F 3 "" H 9850 2850 50  0001 C CNN
+	1    9850 2850
+	1    0    0    -1  
+$EndComp
+Text GLabel 10150 3200 2    50   Input ~ 0
+24V_AC
+$Comp
+L Gerold:PE014005 K3
+U 1 1 5EA68802
+P 4900 4350
+F 0 "K3" H 5450 4400 50  0000 L CNN
+F 1 "PE014005" H 5330 4305 50  0000 L CNN
+F 2 "Gerold:PE014005" H 6450 4300 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=RT1_bistable&DocType=DS&DocLang=English" H 4900 4350 50  0001 C CNN
+	1    4900 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 4650 5100 4650
+Text GLabel 5300 4650 2    50   Input ~ 0
+24V_AC
+Wire Wire Line
+	5000 4050 5000 3500
+Wire Wire Line
+	5000 3500 4100 3500
+Wire Wire Line
+	4000 2900 4000 2450
+Wire Wire Line
+	4000 2450 3100 2450
+$Comp
+L Connector_Generic:PSS254-02G J4
+U 1 1 5EAB40E9
+P 5600 3900
+F 0 "J4" H 5850 3950 50  0000 L CNN
+F 1 "Ventil GPIO 15" H 5680 3851 50  0000 L CNN
+F 2 "Gerold:PSS2542-2G" H 5600 3950 50  0001 C CNN
+F 3 "~" H 5600 3950 50  0001 C CNN
+	1    5600 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:PSS254-02G J3
+U 1 1 5EAB532A
+P 4650 2750
+F 0 "J3" H 4900 2800 50  0000 L CNN
+F 1 "Ventil GPIO 3" H 4730 2701 50  0000 L CNN
+F 2 "Gerold:PSS2542-2G" H 4650 2800 50  0001 C CNN
+F 3 "~" H 4650 2800 50  0001 C CNN
+	1    4650 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:PSS254-02G J2
+U 1 1 5EAB73EE
+P 3600 1650
+F 0 "J2" H 3850 1700 50  0000 L CNN
+F 1 "Ventil GPIO 2" H 3680 1601 50  0000 L CNN
+F 2 "Gerold:PSS2542-2G" H 3600 1700 50  0001 C CNN
+F 3 "~" H 3600 1700 50  0001 C CNN
+	1    3600 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 2900 4200 2700
+Wire Wire Line
+	4200 2700 4450 2700
+Wire Wire Line
+	5200 4050 5200 3850
+Wire Wire Line
+	5200 3850 5400 3850
+$Comp
+L power:GND #PWR0111
+U 1 1 5EABD41E
+P 3400 1800
+F 0 "#PWR0111" H 3400 1550 50  0001 C CNN
+F 1 "GND" H 3550 1750 50  0000 C CNN
+F 2 "" H 3400 1800 50  0001 C CNN
+F 3 "" H 3400 1800 50  0001 C CNN
+	1    3400 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 5EABF82E
+P 4450 2900
+F 0 "#PWR0112" H 4450 2650 50  0001 C CNN
+F 1 "GND" H 4600 2850 50  0000 C CNN
+F 2 "" H 4450 2900 50  0001 C CNN
+F 3 "" H 4450 2900 50  0001 C CNN
+	1    4450 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 5EAC0B26
+P 5400 4050
+F 0 "#PWR0113" H 5400 3800 50  0001 C CNN
+F 1 "GND" H 5550 4000 50  0000 C CNN
+F 2 "" H 5400 4050 50  0001 C CNN
+F 3 "" H 5400 4050 50  0001 C CNN
+	1    5400 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 4050 5400 3950
+Wire Wire Line
+	4450 2900 4450 2800
+Wire Wire Line
+	3400 1800 3400 1700
+$Comp
+L Diode:LL4148 D4
+U 1 1 5EACC78B
+P 6950 3700
+F 0 "D4" V 6900 3450 50  0000 L CNN
+F 1 "LL4148" V 7000 3350 50  0000 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 6950 3525 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 6950 3700 50  0001 C CNN
+	1    6950 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:LL4148 D2
+U 1 1 5EACD6A5
+P 3300 3200
+F 0 "D2" V 3250 2950 50  0000 L CNN
+F 1 "LL4148" V 3350 2850 50  0000 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 3300 3025 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 3300 3200 50  0001 C CNN
+	1    3300 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:LL4148 D1
+U 1 1 5EAD04AE
+P 2300 2150
+F 0 "D1" V 2250 1900 50  0000 L CNN
+F 1 "LL4148" V 2350 1800 50  0000 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 2300 1975 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 2300 2150 50  0001 C CNN
+	1    2300 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:LL4148 D3
+U 1 1 5EAD24C9
+P 4300 4350
+F 0 "D3" V 4250 4100 50  0000 L CNN
+F 1 "LL4148" V 4350 4000 50  0000 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 4300 4175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 4300 4350 50  0001 C CNN
+	1    4300 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4300 4200 4300 4000
+Wire Wire Line
+	4300 4000 4700 4000
+Connection ~ 4700 4000
+Wire Wire Line
+	4700 4000 4700 4050
+Wire Wire Line
+	4300 4500 4300 4750
+Wire Wire Line
+	4300 4750 4700 4750
+Connection ~ 4700 4750
+Wire Wire Line
+	4700 4750 4700 4800
+Wire Wire Line
+	3300 3350 3300 3600
+Wire Wire Line
+	3300 3600 3700 3600
+Connection ~ 3700 3600
+Wire Wire Line
+	3700 3600 3700 3650
+Wire Wire Line
+	3300 3050 3300 2800
+Wire Wire Line
+	3300 2800 3700 2800
+Connection ~ 3700 2800
+Wire Wire Line
+	3700 2800 3700 2900
+Wire Wire Line
+	2300 2300 2300 2550
+Wire Wire Line
+	2300 2550 2700 2550
+Connection ~ 2700 2550
+Wire Wire Line
+	2700 2550 2700 2600
+Wire Wire Line
+	2300 2000 2300 1750
+Wire Wire Line
+	2300 1750 2700 1750
+Connection ~ 2700 1750
+Wire Wire Line
+	2700 1750 2700 1850
+Wire Wire Line
+	6950 3550 6950 3300
+Wire Wire Line
+	6950 3300 7350 3300
+Connection ~ 7350 3300
+Wire Wire Line
+	7350 3300 7350 3400
+Wire Wire Line
+	6950 3850 6950 4050
+Wire Wire Line
+	6950 4050 7350 4050
+Connection ~ 7350 4050
+Wire Wire Line
+	7350 4050 7350 4150
+$Comp
+L Gerold:IDC_WSL10G_Wanne J1
+U 1 1 5EAE2D76
+P 1850 5000
+F 0 "J1" H 1850 5417 50  0000 C CNN
+F 1 "vom Raspberry Pi" H 1850 5326 50  0000 C CNN
+F 2 "Gerold:IDC-Header_2x05_P2.54mm_Vertical" H 1900 4650 50  0001 C CNN
+F 3 "/home/guenter/Dokumente/Kicad/datasheet/IDC10pol.pdf" H 1800 5000 50  0001 C CNN
+	1    1850 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 1850 3200 1600
+Wire Wire Line
+	3200 1600 3400 1600
+$Comp
+L power:+5V #PWR0114
+U 1 1 5EB4C946
+P 2350 4700
+F 0 "#PWR0114" H 2350 4550 50  0001 C CNN
+F 1 "+5V" H 2365 4873 50  0000 C CNN
+F 2 "" H 2350 4700 50  0001 C CNN
+F 3 "" H 2350 4700 50  0001 C CNN
+	1    2350 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 5EB4FFAF
+P 2350 5000
+F 0 "#PWR0115" H 2350 4750 50  0001 C CNN
+F 1 "GND" H 2350 4850 50  0000 C CNN
+F 2 "" H 2350 5000 50  0001 C CNN
+F 3 "" H 2350 5000 50  0001 C CNN
+	1    2350 5000
+	1    0    0    -1  
+$EndComp
+Text Notes 8200 7650 0    50   ~ 0
+23.04.2020
+Text Notes 7350 7500 0    79   ~ 0
+Steuerung für Gartenbewässerung
+Wire Wire Line
+	2350 4800 2350 4700
+Wire Wire Line
+	2100 4900 2100 4800
+Wire Wire Line
+	2100 5000 2350 5000
+Wire Wire Line
+	1450 3850 3050 3850
+Wire Wire Line
+	1350 2800 2050 2800
+NoConn ~ 1600 4800
+NoConn ~ 1600 5100
+NoConn ~ 1600 5200
+NoConn ~ 3000 1850
+NoConn ~ 7650 3400
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5EBAB97A
+P 8700 2400
+F 0 "#FLG0101" H 8700 2475 50  0001 C CNN
+F 1 "PWR_FLAG" V 8700 2528 50  0000 L CNN
+F 2 "" H 8700 2400 50  0001 C CNN
+F 3 "~" H 8700 2400 50  0001 C CNN
+	1    8700 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5EBB5F1C
+P 8400 2400
+F 0 "#FLG0102" H 8400 2475 50  0001 C CNN
+F 1 "PWR_FLAG" V 8400 2527 50  0000 L CNN
+F 2 "" H 8400 2400 50  0001 C CNN
+F 3 "~" H 8400 2400 50  0001 C CNN
+	1    8400 2400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8400 2400 8400 2800
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5EBBB0BF
+P 2350 4800
+F 0 "#FLG0103" H 2350 4875 50  0001 C CNN
+F 1 "PWR_FLAG" V 2300 4900 50  0000 L CNN
+F 2 "" H 2350 4800 50  0001 C CNN
+F 3 "~" H 2350 4800 50  0001 C CNN
+	1    2350 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 5EBBC29E
+P 2350 5000
+F 0 "#FLG0104" H 2350 5075 50  0001 C CNN
+F 1 "PWR_FLAG" V 2300 5100 50  0000 L CNN
+F 2 "" H 2350 5000 50  0001 C CNN
+F 3 "~" H 2350 5000 50  0001 C CNN
+	1    2350 5000
+	0    1    1    0   
+$EndComp
+Connection ~ 2350 5000
+$Comp
+L Connector:Screw_Terminal_01x04 J5
+U 1 1 5EBD70A0
+P 8500 2100
+F 0 "J5" V 8700 2150 50  0000 R CNN
+F 1 "Netzanschluss 230V AC" V 8600 2500 50  0000 R CNN
+F 2 "Gerold:Schraubklemme_4-fach" H 8500 2100 50  0001 C CNN
+F 3 "~" H 8500 2100 50  0001 C CNN
+	1    8500 2100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8400 2400
+Wire Wire Line
+	8700 2800 8950 2800
+Wire Wire Line
+	8500 2400 8500 2300
+Wire Wire Line
+	1450 3850 1450 5000
+Wire Wire Line
+	1450 5000 1600 5000
+Wire Wire Line
+	1350 2800 1350 4900
+Wire Wire Line
+	1350 4900 1600 4900
+Wire Wire Line
+	2250 5100 2100 5100
+Wire Wire Line
+	8500 2400 8600 2400
+Wire Wire Line
+	9750 2800 9850 2800
+Wire Wire Line
+	9850 2800 9850 2850
+$Comp
+L Device:Fuse F1
+U 1 1 5EC796AA
+P 8700 2650
+F 0 "F1" H 8760 2696 50  0000 L CNN
+F 1 "Fuse" H 8760 2605 50  0000 L CNN
+F 2 "Gerold:Fuse_TR5" V 8630 2650 50  0001 C CNN
+F 3 "~" H 8700 2650 50  0001 C CNN
+	1    8700 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 2500 8700 2400
+Connection ~ 8700 2400
+$Comp
+L Device:Fuse F2
+U 1 1 5EC80121
+P 9950 3200
+F 0 "F2" V 10050 3200 50  0000 C CNN
+F 1 "0,4AT" V 10150 3200 50  0000 C CNN
+F 2 "Gerold:Fuse_TR5" V 9880 3200 50  0001 C CNN
+F 3 "~" H 9950 3200 50  0001 C CNN
+	1    9950 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9750 3200 9800 3200
+Wire Wire Line
+	10100 3200 10150 3200
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5EC9D0A4
+P 8800 4550
+F 0 "H1" H 8900 4596 50  0000 L CNN
+F 1 "MountingHole" H 8900 4505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 8800 4550 50  0001 C CNN
+F 3 "~" H 8800 4550 50  0001 C CNN
+	1    8800 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5EC9FA5F
+P 8800 4800
+F 0 "H2" H 8900 4846 50  0000 L CNN
+F 1 "MountingHole" H 8900 4755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 8800 4800 50  0001 C CNN
+F 3 "~" H 8800 4800 50  0001 C CNN
+	1    8800 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5ECA003C
+P 8800 5050
+F 0 "H3" H 8900 5096 50  0000 L CNN
+F 1 "MountingHole" H 8900 5005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 8800 5050 50  0001 C CNN
+F 3 "~" H 8800 5050 50  0001 C CNN
+	1    8800 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5ECA041A
+P 8800 5300
+F 0 "H4" H 8900 5346 50  0000 L CNN
+F 1 "MountingHole" H 8900 5255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 8800 5300 50  0001 C CNN
+F 3 "~" H 8800 5300 50  0001 C CNN
+	1    8800 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 5200 4050 5200
+Wire Wire Line
+	4050 5200 4050 5000
+Wire Wire Line
+	4700 5200 4700 5300
+$Comp
+L power:GND #PWR0105
+U 1 1 5EA687FC
+P 4700 5300
+F 0 "#PWR0105" H 4700 5050 50  0001 C CNN
+F 1 "GND" H 4705 5127 50  0000 C CNN
+F 2 "" H 4700 5300 50  0001 C CNN
+F 3 "" H 4700 5300 50  0001 C CNN
+	1    4700 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Gerold:PE014005 K4
+U 1 1 5EA85111
+P 7550 3700
+F 0 "K4" H 7500 4200 50  0000 L CNN
+F 1 "PE014005" H 7400 4100 50  0000 L CNN
+F 2 "Gerold:PE014005" H 9100 3650 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=RT1_bistable&DocType=DS&DocLang=English" H 7550 3700 50  0001 C CNN
+	1    7550 3700
+	1    0    0    -1  
+$EndComp
+Text Notes 7600 4250 0    79   ~ 0
+GPIO 14
+Wire Wire Line
+	2350 4800 2100 4800
+Connection ~ 2350 4800
+Connection ~ 2100 4800
+Wire Wire Line
+	8150 3200 8950 3200
+Wire Wire Line
+	7850 2800 8400 2800
+Wire Wire Line
+	7850 2800 7850 3400
+Wire Wire Line
+	2250 5650 6700 5650
+Wire Wire Line
+	2250 5100 2250 5650
+Wire Wire Line
+	6700 4350 6700 5650
+$EndSCHEMATC
