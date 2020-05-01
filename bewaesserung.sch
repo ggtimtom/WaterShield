@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:bewaesserung-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -608,7 +607,7 @@ L Device:Fuse F1
 U 1 1 5EC796AA
 P 8700 2650
 F 0 "F1" H 8760 2696 50  0000 L CNN
-F 1 "Fuse" H 8760 2605 50  0000 L CNN
+F 1 "0,1AT" H 8760 2605 50  0000 L CNN
 F 2 "Gerold:Fuse_TR5" V 8630 2650 50  0001 C CNN
 F 3 "~" H 8700 2650 50  0001 C CNN
 	1    8700 2650
@@ -704,7 +703,7 @@ F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&
 	1    7550 3700
 	1    0    0    -1  
 $EndComp
-Text Notes 7600 4250 0    79   ~ 0
+Text Notes 7550 4200 0    79   ~ 0
 GPIO 14
 Wire Wire Line
 	2350 4800 2100 4800
